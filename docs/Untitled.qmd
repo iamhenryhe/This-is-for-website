@@ -1,0 +1,37 @@
+---
+title: "Zijie's Website"
+format: html
+---
+
+# Welcome to my channel!
+
+## [About me](Aboutme.html)
+
+![](img/WechatIMG238.jpg){.profile-photo width="200" height="auto"}
+
+In today's digital era, I deeply recognize the immense potential of data analysis...
+
+## [My project](myproject.html)
+
+Visualization
+
+## Contact Information about me
+
+-   Email: [your.email\@example.com](mailto:your.email@example.com)
+-   LinkedIn: [yourprofile](https://www.linkedin.com/in/yourprofile)
+-   GitHub: [yourusername](https://github.com/yourusername)
+
+<button onclick="showMessage()">
+
+Leave your message!
+
+</button>
+
+::: {#messageArea}
+:::
+\`\`\`
+
+
+```{js} 
+function showMessage() { document.getElementById("messageArea").innerText = "Feel Free To Contact Me"; }
+```
