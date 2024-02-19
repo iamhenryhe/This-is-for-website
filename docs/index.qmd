@@ -3,13 +3,32 @@ title: "Zijie's Website"
 format: html
 ---
 
+```{css}
+.title-box {
+    background-color: #007bff; /* background */
+    color: white; /* font color */
+    padding: 10px 20px; /* margin */
+    border-radius: 10px; /* frame */
+    display: inline-block; 
+    margin-top: 20px; /* margin2 */
+}
+.profile-photo {
+    width: 200px;
+    height: auto;
+    border-radius: 50%; /* circle */
+}
+<div class="title-box">Welcome to my channel!</div>
+```
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 # Welcome to my channel!
 
 ## [About me](Aboutme.html)
 
 ![](img/WechatIMG238.jpg){.profile-photo width="200" height="auto"}
 
-In today's digital era, I deeply recognize the immense potential of data analysis...
+I am a student of into mason. My major is data analytics engineering. I hope to complete my master degree in mason. Be a data analyst in the future.
 
 ## [My project](myproject.html)
 
@@ -17,9 +36,9 @@ Visualization
 
 ## Contact Information about me
 
--   Email: [your.email\@example.com](mailto:your.email@example.com)
--   LinkedIn: [yourprofile](https://www.linkedin.com/in/yourprofile)
--   GitHub: [yourusername](https://github.com/yourusername)
+-   Email: <i class="fas fa-envelope"></i> [zhe20\@gmu.edu](mailto:zhe20@gmu.edu)
+-   LinkedIn: <i class="fab fa-linkedin"></i> [Linkedin](https://www.linkedin.com/in/henryhe62/)
+-   GitHub: <i class="fab fa-github"></i> [HenryheGITHUB](https://github.com/iamhenryhe)
 
 <button onclick="showMessage()">
 
@@ -29,9 +48,9 @@ Leave your message!
 
 ::: {#messageArea}
 :::
+
 \`\`\`
 
-
-```{js} 
+```{js}
 function showMessage() { document.getElementById("messageArea").innerText = "Feel Free To Contact Me"; }
 ```
